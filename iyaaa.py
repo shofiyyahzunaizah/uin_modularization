@@ -1,7 +1,7 @@
 nama = 'Latifah Zunairoh'
 program = 'gerak lurus'
 
-print(f' program (program) oleh {nama}')
+print(f' program {program} oleh {nama}')
 
 def hitung_kecepatan (jarak, waktu) :
     kecepatan = jarak / waktu
@@ -13,4 +13,17 @@ def hitung_kecepatan (jarak, waktu) :
 # waktu = 5 * 60
 kecepatan = hitung_kecepatan (1000, 5 * 60)
 kecepatan = hitung_kecepatan (3000, 70 * 60)
+
+def hitung_massajenis (massa, volume) :
+    massajenis = massa / volume
+    print (f'massa = {massa / 3000}kg dengan volume = {volume / 1500}m ** 3')
+    print (f'sehingga massajenis = {massajenis}kg/m ** 3')
+    return massajenis
+
+# massa = 3000
+# volume= 1500
+massajenis = hitung_massajenis (3000, 1500)
+massajenis = hitung_massajenis (3000, 1500)
+
+
 
